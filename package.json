@@ -1,0 +1,28 @@
+{
+  "name": "grokking-data-structures",
+  "version": "1.0.0",
+  "description": "A collection of data structure implementations with no sense",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "data structure",
+    "typescript"
+  ],
+  "author": "Nikita Levchuk <code@nikitalevchuk.me>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@types/jest": "^29.0.3",
+    "babel-jest": "^29.0.3",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.1"
+  }
+}

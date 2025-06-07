@@ -2,6 +2,8 @@
 
 ; Implementation
 
+(declare queue)
+
 (defn push-func
   [front rear]
   (fn [& args] (queue front (apply conj rear args))))
